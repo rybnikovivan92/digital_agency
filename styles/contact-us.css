@@ -81,7 +81,6 @@
     order: 2;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -198,6 +197,21 @@
     align-items: center;
 }
 
+@media (min-width: 1200px) {
+    .contact-us-map {
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-image: url("../images/contact-us-map.svg");
+        background-position: center;
+        text-align: center;
+        width: 1060px;
+        height: 537px;
+    }
+}
+
 @media (min-width: 768px) {
     .wrapper-say-hello {
         background-position: center;
@@ -278,7 +292,10 @@
         min-width: 675px;
     }
 
-    .message-form input {
+    .message-form textarea {
+        border: 1px solid #CECECE;
+        border-radius: 9px;
+        resize: none;
         margin-bottom: 50px;
         width: 671px;
         min-height: 232px;
@@ -314,21 +331,8 @@
 }
 
 @media (min-width: 992px) {
-    .contact-us-map {
-        margin-bottom: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-repeat: no-repeat;
-        background-image: url("../images/contact-us-map.svg");
-        background-position: center;
-        text-align: center;
-        width: 1060px;
-        height: 537px;
-    }
-
     .follow-us .social-media .social-media-bubble {
-        box-shadow: 1px 1px 38px 12px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 36px 3px rgba(34, 60, 80, 0.2);
     }
 
     .follow-us .social-media {

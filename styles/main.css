@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.services-banner-text p {
+    width: 263px;
+}
+
 .breadcrumbs {
     margin-bottom: 30px;
     display: flex;
@@ -21,7 +25,7 @@
 .breadcrumbs span {
     text-decoration: none;
     font-size: 16px;
-    line-height: 208.5%;
+    line-height: 33px;
     color: var(--grey);
 }
 
@@ -33,18 +37,20 @@
     color: var(--primary);
 }
 
-.active-breadcrumb::before {
-    margin-left: 15px;
+.bread-home::after {
+    margin-left: 10px;
+    margin-right: 10px;
     content: ">";
     color: var(--grey);
     font-size: 16px;
 }
 
 .banner h1 {
+    min-width: 320px;
     margin-bottom: 30px;
     font-weight: 600;
     font-size: 25px;
-    line-height: 180.5%;
+    line-height: 45px;
     text-align: center;
     color: var(--black);
 }
@@ -53,7 +59,7 @@
     margin-bottom: 60px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 187.5%;
+    line-height: 22px;
     text-align: center;
     color: var(--grey);
 }
@@ -113,7 +119,7 @@
     margin-bottom: 17px;
     position: relative;
     font-size: 14px;
-    line-height: 187.5%;
+    line-height: 26px;
     color: #525252;
     list-style-type: none;
 }
@@ -207,8 +213,7 @@ iframe {
 
 .article-image img {
     margin-bottom: 50px;
-    width: 375px;
-    height: 282px;
+    width: 100%;
 }
 
 .gaming-article {
@@ -262,7 +267,7 @@ iframe {
     margin-bottom: 77px;
     max-width: 248px;
     font-size: 12px;
-    line-height: 187.5%;
+    line-height: 22px;
     text-align: center;
     color: #525252;
 }
@@ -288,7 +293,7 @@ iframe {
 }
 
 .active-slider {
-    border: 2px solid #DC7000;
+    border: 2px solid var(--primary);
     background-color: var(--white);
 }
 
@@ -344,7 +349,7 @@ iframe {
 .slider-element p {
     min-width: 215px;
     font-size: 10px;
-    line-height: 187.5%;
+    line-height: 19px;
     display: flex;
     align-items: center;
     color: #525252;
@@ -391,7 +396,7 @@ iframe {
     width: 26px;
     height: 26px;
     border-radius: 50%;
-    border: 2px solid #DC7000;
+    border: 2px solid var(--primary);
     margin-right: 10px;
 }
 
@@ -402,7 +407,7 @@ iframe {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #DC7000;
+    background-color: var(--primary);
 }
 
 .slider-arrows img {
@@ -414,7 +419,7 @@ iframe {
 }
 
 .stay-in-the-loop {
-    padding-bottom: 140px;
+    padding-bottom: 50px;
     padding-top: 50px;
 }
 
@@ -422,7 +427,7 @@ iframe {
     margin-bottom: 13px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 187.5%;
+    line-height: 37px;
     color: var(--black);
 }
 
@@ -430,7 +435,7 @@ iframe {
     max-width: 296px;
     margin-bottom: 41px;
     font-size: 12px;
-    line-height: 187.5%;
+    line-height: 22px;
     color: #525252;
 }
 
@@ -524,14 +529,14 @@ iframe {
         margin-bottom: 12px;
         font-weight: bold;
         font-size: 30px;
-        line-height: 180.5%;
+        line-height: 54px;
         color: var(--black)
     }
 
     .video-section-text p {
         margin-bottom: 28px;
         font-size: 14px;
-        line-height: 187.5%;
+        line-height: 26px;
         color: #525252;
     }
 
@@ -540,7 +545,7 @@ iframe {
     }
 
     iframe {
-        width: 669px;
+        width: 550px;
         height: 354px;
     }
 
@@ -652,7 +657,7 @@ iframe {
         margin-bottom: 32px;
         font-weight: 600;
         font-size: 30px;
-        line-height: 187.5%;
+        line-height: 56px;
         color: var(--black);
     }
 
@@ -660,7 +665,7 @@ iframe {
         max-width: 545px;
         margin-bottom: 75px;
         font-size: 16px;
-        line-height: 187.5%;
+        line-height: 30px;
         color: #525252;
     }
 
@@ -809,7 +814,7 @@ iframe {
         margin-bottom: 70px;
         max-width: 555px;
         font-size: 14px;
-        line-height: 187.5%;
+        line-height: 26px;
         text-align: center;
         color: #525252;
     }
@@ -836,7 +841,7 @@ iframe {
     }
 
     .active-slider {
-        border: 2px solid #DC7000;
+        border: 2px solid var(--primary);
         background-color: var(--white);
     }
 
@@ -891,7 +896,7 @@ iframe {
     .slider-element p {
         min-width: 340px;
         font-size: 14px;
-        line-height: 187.5%;
+        line-height: 26px;
         display: flex;
         align-items: center;
         color: #525252;
@@ -938,7 +943,7 @@ iframe {
         width: 56px;
         height: 56px;
         border-radius: 50%;
-        border: 2px solid #DC7000;
+        border: 2px solid var(--primary);
         margin-right: 20px;
     }
 
@@ -949,7 +954,7 @@ iframe {
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: #DC7000;
+        background-color: var(--primary);
     }
 
     .slider-arrows img {
